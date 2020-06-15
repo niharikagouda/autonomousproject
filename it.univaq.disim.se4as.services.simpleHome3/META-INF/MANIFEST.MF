@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: SimpleHome3
+Bundle-SymbolicName: it.univaq.disim.se4as.services.simpleHome3
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: it.univaq.disim_se4as.services.co2activator.Activator
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Import-Package: it.univaq.disim.se4as.services.sensor.api,
+ org.osgi.framework
+Bundle-ActivationPolicy: lazy
+Automatic-Module-Name: it.univaq.disim.se4as.services.simpleHome
+Require-Bundle: it.univaq.disim.se4as.services.sensor.api;bundle-version="1.0.0"
+Bundle-ClassPath: library/org.eclipse.paho.client.mqttv3-1.2.0.jar, 
+ .
